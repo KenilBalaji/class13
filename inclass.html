@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Intro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+        .col{
+            text-align: center;
+            border: solid black 3px;
+        }
+        h3{
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Equal Width Column Grid</h3>
+    <div class="container">
+        <div class="row1">
+            <div class="col">column1</div>
+            <div class="col">column2</div>
+            <div class="col">column3</div>
+        </div>
+        <div class="row2">
+            <div class="col">column1</div>
+            <div class="col">column2</div>
+            <div class="col">column3</div>
+        </div>
+        <div class="row3">
+            <div class="col">column1</div>
+            <div class="col">column2</div>
+            <div class="col">column3</div>
+        </div>
+    </div>
+
+    <hr>
+
+    <h3>Reisable Grid</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-xs-4" style="background-color: red; border: solid black 5px">XS</div>
+            <div class="col-md-12 col-md-5" style="background-color: blue; border: solid black 5px">MD</div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-lg-6" style="background-color: green; border: solid black 5px">XS</div>
+            <div class="col-xs-6 col-md-2" style="background-color: yellow; border: solid black 5px">MD</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6" style="background-color: purple; border: solid black 5px">XS</div>
+            <div class="col-xs-6" style="background-color: orange; border: solid black 5px">MD</div>
+        </div>
+    </div>
+</body>
+</html>
