@@ -1,0 +1,44 @@
+<!-- Bootstrap CSS (put in <head>) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Optional small CSS to keep the green/yellow theme -->
+<style>
+  .site-navbar {
+    background: linear-gradient(90deg,#60c76b,#ffd86b);
+  }
+  .site-navbar .nav-link {
+    color: #083012;
+    font-weight:600;
+  }
+  .site-navbar .nav-link:hover {
+    color: #072a14;
+    text-decoration: underline;
+  }
+  .site-navbar .navbar-brand {
+    color: #083012;
+    font-weight:800;
+  }
+</style>
+
+<!-- Navbar HTML (put in <body>) -->
+<nav class="navbar site-navbar navbar-expand-lg" role="navigation">
+  <div class="container">
+    <a class="navbar-brand" href="acp.html">Sam's Zoo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+            aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" style="filter: invert(1)"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="acp.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="animals.html">Animals</a></li>
+        <li class="nav-item"><a class="nav-link" href="tickets.html">Tickets</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Bootstrap JS bundle (put before </body>) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
